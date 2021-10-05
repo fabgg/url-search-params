@@ -1,0 +1,11 @@
+###> local env ###
+.idea/
+.DS_store/
+docker-compose.yml
+composer.lock
+###> local env  ###
+/vendor/
+###> phpunit/phpunit ###
+phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
