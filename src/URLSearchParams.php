@@ -5,7 +5,10 @@ namespace Fabgg\UrlSearchParams;
 class URLSearchParams
 {
 
-    private array $parameters = [];
+    /**
+     * @var array
+     */
+    private $parameters = [];
 
     /**
      * @param array|string|null $search
